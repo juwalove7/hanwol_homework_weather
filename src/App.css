@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+#weatherAll {
+  background-color: rgb(247, 193, 122);
+}
+
+.weatherInformationAll {
+  /* background-color: #61dafb; */
+
+  display: table;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  padding: 50px;
+}
+
+.weatherSearch {
+  background-color: aliceblue;
+}
+
+.weartherDay {
+  background-color: beige;
+}
+
+.weartherCity {
+  background-color: aquamarine;
+}
+
+.weartherTemperature {
+  background-color: aqua;
+}
+
+.weartherIcon {
+  background-color: cornsilk;
+}
+
+/*
+// 날씨 정보 처리 코드
+      var today = new Date();
+      var year = today.getUTCFullYear();
+      var month = today.getUTCMonth() + 1;
+      var date = today.getUTCDate();
+      var day = today.getUTCDay();
+      var dayNaming = [
+        "일요일",
+        "월요일",
+        "화요일",
+        "수요일",
+        "목요일",
+        "금요일",
+        "토요일",
+      ];
+      var dayName = dayNaming[day];
+
+      setWeatherDay(year + "년" + month + "월" + date + "일 " + dayName);
+      setWeatherCity(data.name);
+      setWeatherTemperature(Number((data.main.temp - 273.15).toFixed(2))); // 온도 값 소수점 두 자리까지 표시
+      setWeatherIcon(
+        "https://openweathermap.org/img/wn/" + data.weather[0].icon + ".png"
+      );
+*/
