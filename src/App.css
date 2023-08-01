@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+#weatherAll {
+  background-color: rgb(247, 193, 122);
+  
+}
+
+.weatherInformationAll {
+  /* background-color: #61dafb; */
+
+  display: table;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  padding: 50px;
+}
+
+.weatherSearch {
+  background-color: aliceblue;
+}
+
+.weartherDay {
+  background-color: beige;
+}
+
+.weartherCity {
+  background-color: aquamarine;
+}
+
+.weartherTemperature {
+  background-color: aqua;
+}
+
+.weartherIcon {
+  background-color: cornsilk;
+}
